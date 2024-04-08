@@ -8,6 +8,6 @@ unsigned char* AESDecrypt(unsigned char* shellcode, int shellcodeSize, int* encr
 
 // Base64编码，适用于不同场景
 char* Base64EncodeString(const char* str);
-char* Base64EncodeBytes(unsigned char bytes, int bytesDataSize);
+char* Base64EncodeBytes(unsigned char* bytes, int bytesDataSize);
 unsigned char* Base64DecodeToBytes(const char* base64String, int* decodeDataSize);
 char* Base64DecodeToString(const char* base64String);
