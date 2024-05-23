@@ -1097,5 +1097,8 @@
     <CustomBuild Include="adhoc.cpp.proto">
       <Filter>Miscellaneous</Filter>
     </CustomBuild>
+    <CustomBuild Include="cpuid64.asm" />
+    <CustomBuild Include="x64dll.asm" />
+    <CustomBuild Include="x64masm.asm" />
   </ItemGroup>
 </Project>

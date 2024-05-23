@@ -70,7 +70,7 @@
     <TargetName>cryptlib</TargetName>
     <TargetExt>.lib</TargetExt>
     <UseOfMfc>false</UseOfMfc>
-    <CharacterSet>MultiByte</CharacterSet>
+    <CharacterSet>Unicode</CharacterSet>
     <WholeProgramOptimization>true</WholeProgramOptimization>
   </PropertyGroup>
   <!-- Intermediate and Output directories -->
